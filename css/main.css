@@ -12,3 +12,25 @@ a {
   text-decoration: none;
   color: #333;
 }
+
+.musical_wrap {
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  gap: 20px;
+}
+.musical_wrap > li {
+  width: calc(100% / 4);
+}
+.ticket-img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.ticket-img img {
+  display: block;
+  width: 100%;
+}
+.ticket-info {
+  background-color: #ccc;
+}
