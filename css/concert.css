@@ -74,6 +74,10 @@ a {
 .ticket-img img {
   display: block;
   width: 100%;
+  transition: all 0.3s;
+}
+.ticket-img:hover img {
+  transform: scale(1.1);
 }
 .rank {
   position: absolute;
