@@ -16,7 +16,7 @@ a {
 .musical_wrap {
   width: 1200px;
   margin: auto;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
   display: flex;
   gap: 20px;
 }
@@ -26,11 +26,35 @@ a {
 .ticket-img {
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .ticket-img img {
   display: block;
   width: 100%;
 }
 .ticket-info {
-  background-color: #ccc;
+  padding: 20px 10px;
+  /* background-color: #ccc; */
+}
+.ticket-info-list > .title {
+  margin-bottom: 10px;
+}
+.ticket-info-list > .place {
+  font-size: 15px;
+  color: #000000;
+}
+.ticket-info-list > .date {
+  font-size: 15px;
+  color: #999999;
+  margin-bottom: 9px;
+}
+.ticket-info-list > .sell {
+  width: 70px;
+  padding: 4px 8px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgba(65, 84, 255, 0.08);
+  color: #4154ff;
+  font-weight: 700;
+  font-size: 14px;
 }
